@@ -23,7 +23,7 @@
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
 * [Usage](#usage)
-* [Usage](#Features)
+* [Features](#Features)
 * [License](#license)
 * [Authors](#authors)
 * [Acknowledgements](#acknowledgements)
