@@ -52,7 +52,7 @@ These instructions will help you set up and run the project on your local machin
 
 ```sh
 git clone https://github.com/6abc/VisualizeCSV.git
-cd ERROR_PROOF_DJANGO_GET_POST
+cd VisualizeCSV
 ```
 
 2.1 Create a virtual environment [Unix](optional but recommended):
@@ -72,11 +72,6 @@ python -m venv venv
 3. Install project dependencies:
 ```sh
 pip install -r requirements.txt
-```
-
-4. Apply migrations:
-```sh
-python manage.py migrate
 ```
 
 ## Usage
