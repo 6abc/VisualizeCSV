@@ -30,7 +30,7 @@
 
 ## About The Project
 
-![Screen Shot](https://raw.githubusercontent.com/6abc/VisualizeCSV/main/steamlit.png)
+![Screen Shot](https://raw.githubusercontent.com/6abc/VisualizeCSV/main/steamlit1.png)
 
 ## Built With
 
