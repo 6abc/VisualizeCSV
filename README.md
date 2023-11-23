@@ -4,7 +4,7 @@
     <img src="https://avatars.githubusercontent.com/u/97246854?v=4" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">ERROR_PROOF_DJANGO_GET_POST</h3>
+  <h3 align="center">VisualizeCSV</h3>
 
   <p align="center">
     Run Application with CSV(You can use your CSV update main.py).
@@ -27,7 +27,26 @@
 * [Authors](#authors)
 * [Acknowledgements](#acknowledgements)
 
+## About The Project
+
 ![Screen Shot](https://raw.githubusercontent.com/6abc/VisualizeCSV/main/steamlit.png)
+
+## Built With
+
+Visualize CSV with Python Code using Pandas, Pygwalker and Streamlit.
+
+## Getting Started
+
+These instructions will help you set up and run the project on your local machine.
+
+### Prerequisites
+
+* Python
+* Pandas
+* Pygwalker
+* Streamlit
+
+### Installation
 
 1. Clone the repo
 
