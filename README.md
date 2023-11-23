@@ -31,7 +31,7 @@
 
 ## About The Project
 
-![Screen Shot](https://raw.githubusercontent.com/6abc/VisualizeCSV/main/steamlit.png)
+![Screen Shot](https://raw.githubusercontent.com/6abc/VisualizeCSV/main/img/steamlit.png)
 
 ## Built With
 
@@ -85,7 +85,7 @@ streamlit run main.py
 2. Open a web browser and navigate to http://127.0.0.1:8501/ to access the Web page.
 
 3. 💧Stop the Application server by Pressing Ctrl+C.
-![Screen Shot](https://raw.githubusercontent.com/6abc/VisualizeCSV/main/stop.png)
+![Screen Shot](https://raw.githubusercontent.com/6abc/VisualizeCSV/main/img/stop.png)
 
 ## Features
 * Can Visualize CSV data without Excel and complex table function.
@@ -108,4 +108,4 @@ Distributed under the MIT License. See [LICENSE](https://github.com/6abc/Visuali
 * [Inspired by ReadME-Generator](https://readme.shaankhan.dev/)
 
 ## RenderDeployment
-![Screen Shot](https://raw.githubusercontent.com/6abc/VisualizeCSV/main/render_deploy.png)
+![Screen Shot](https://raw.githubusercontent.com/6abc/VisualizeCSV/main/img/render_deploy.png)
