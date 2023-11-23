@@ -7,7 +7,7 @@
   <h3 align="center">VisualizeCSV</h3>
 
   <p align="center">
-    Run Application with CSV(You can use your CSV update main.py).
+    Run Web Application with CSV(You can use your CSV update main.py).
     <br/>
     <br/>
   </p>
