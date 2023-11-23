@@ -1,9 +1,4 @@
 # Run Application with CSV(You can use your CSV update main.py)
-'''sh
-streamlit run main.py
-'''
-# To Stop Press ctrl+c
-### Installation
 
 1. Clone the repo
 
