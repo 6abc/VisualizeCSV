@@ -22,12 +22,14 @@
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
+  * [Docker_Install](#Docker_Install)
 * [Usage](#usage)
 * [Features](#Features)
 * [License](#license)
 * [Authors](#authors)
 * [Acknowledgements](#acknowledgements)
 * [RenderDeployment](#RenderDeployment)
+
 
 ## About The Project
 
@@ -74,6 +76,24 @@ python -m venv venv
 3. Install project dependencies:
 ```sh
 pip install -r requirements.txt
+```
+
+### Docker_Install
+
+1. Create folder name as data and add csv file named as source.csv and copy path of folder
+
+```sh
+mkdir data
+```
+
+2. Use data path here
+```sh
+docker run -d -p 8501:8501 -v /path/to/your/data:/app/data paulisgood/visualizecsv:latest
+```
+
+Example :
+```sh
+docker run -d -p 8501:8501 -v /home/ash/data:/app/data paulisgood/visualizecsv:latest
 ```
 
 ## Usage
