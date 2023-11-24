@@ -3,16 +3,16 @@ import pandas as pd
 import streamlit.components.v1 as components
 import streamlit as st
 
-df = pd.read_csv('source.csv', encoding='latin-1') #Your CSV encoding was required for this CSV(encoding not mandatory)
+df = pd.read_csv('data/source.csv', encoding='latin-1') #Your CSV encoding was required for this CSV(encoding not mandatory)
 
 # Adjust the width of the Streamlit page
 st.set_page_config(
-    page_title="Use Pygwalker In Streamlit",
+    page_title="VisualizeCSV",
     layout="wide"
 )
 
 # Add Title
-st.title("Use Pygwalker In Streamlit")
+st.title("VisualizeCSV by github.com/6abc")
 
 # Generate the HTML using Pygwalker
 pyg_html = pyg.walk(df, return_html=True)
