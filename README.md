@@ -22,8 +22,8 @@
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
-  * [Docker_Install](#Docker_Install)
 * [Usage](#usage)
+* [Usage_Docker](#Usage_Docker)
 * [Features](#Features)
 * [License](#license)
 * [Authors](#authors)
@@ -78,7 +78,18 @@ python -m venv venv
 pip install -r requirements.txt
 ```
 
-### Docker_Install
+## Usage
+
+1. 🔥Start the Application server:
+```sh
+streamlit run main.py
+```
+2. Open a web browser and navigate to http://127.0.0.1:8501/ to access the Web page.
+
+3. 💧Stop the Application server by Pressing Ctrl+C.
+![Screen Shot](https://raw.githubusercontent.com/6abc/VisualizeCSV/main/img/stop.png)
+
+### Usage_Docker
 
 1. Create folder name as data and add csv file named as source.csv and copy path of folder
 
@@ -95,17 +106,6 @@ Example :
 ```sh
 docker run -d -p 8501:8501 -v /home/ash/data:/app/data paulisgood/visualizecsv:latest
 ```
-
-## Usage
-
-1. 🔥Start the Application server:
-```sh
-streamlit run main.py
-```
-2. Open a web browser and navigate to http://127.0.0.1:8501/ to access the Web page.
-
-3. 💧Stop the Application server by Pressing Ctrl+C.
-![Screen Shot](https://raw.githubusercontent.com/6abc/VisualizeCSV/main/img/stop.png)
 
 ## Features
 * Can Visualize CSV data without Excel and complex table function.
