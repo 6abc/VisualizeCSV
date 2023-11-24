@@ -23,7 +23,7 @@
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
 * [Usage](#usage)
-* [Usage_Docker](#Usage_Docker)
+* [Docker](#Docker)
 * [Features](#Features)
 * [License](#license)
 * [Authors](#authors)
@@ -89,7 +89,7 @@ streamlit run main.py
 3. 💧Stop the Application server by Pressing Ctrl+C.
 ![Screen Shot](https://raw.githubusercontent.com/6abc/VisualizeCSV/main/img/stop.png)
 
-### Usage_Docker
+### Docker
 
 1. Create folder name as data and add csv file named as source.csv and copy path of folder
 
