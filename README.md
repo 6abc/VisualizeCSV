@@ -102,9 +102,9 @@ Distributed under the MIT License. See [LICENSE](https://github.com/6abc/Visuali
 * **Ashish Thakur** - *Senior Command Center Analyst* - [Ashish Thakur](https://github.com/6abc)
 
 ## Acknowledgements
-* [Inspired by Pygwalker](https://github.com/Kanaries/pygwalker)
-* [Inspired by Pandas](https://pandas.pydata.org/)
-* [Inspired by Streamlit](https://streamlit.io/)
+* [Inspired by Pygwalker](https://github.com/Kanaries/pygwalker/releases)
+* [Inspired by Pandas](https://github.com/pandas-dev/pandas/releases)
+* [Inspired by Streamlit](https://github.com/streamlit/streamlit/releases)
 * [Inspired by ReadME-Generator](https://readme.shaankhan.dev/)
 
 ## RenderDeployment
