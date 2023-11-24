@@ -45,10 +45,10 @@ These instructions will help you set up and run the project on your local machin
 
 ### Prerequisites
 
-* Python
-* Pandas
-* Pygwalker
-* Streamlit
+* Python 3.10
+* Pandas 2.1.3
+* Pygwalker 0.3.16
+* Streamlit 1.28.2
 
 ### Installation
 
