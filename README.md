@@ -33,7 +33,7 @@
 
 ## About The Project
 
-![Screen Shot](https://raw.githubusercontent.com/6abc/VisualizeCSV/main/img/steamlit.png)
+![Screen Shot](https://raw.githubusercontent.com/6abc/VisualizeCSV/main/img/steamlitgeo.png)
 
 ## Built With
 
