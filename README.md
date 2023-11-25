@@ -7,7 +7,7 @@
   <h3 align="center">VisualizeCSV</h3>
 
   <p align="center">
-    Run Web Application with any CSV
+    Run Web Application with CSV 🔥
     <br/>
     <br/>
   </p>
