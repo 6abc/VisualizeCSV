@@ -30,81 +30,60 @@
 * [Acknowledgements](#acknowledgements)
 * [RenderDeployment](#RenderDeployment)
 
-
 ## About The Project
-
 ![Screen Shot](https://raw.githubusercontent.com/6abc/VisualizeCSV/main/img/steamlitgeo.png)
 
 ## Built With
-
 Visualize CSV with Python Code using Pandas, Pygwalker and Streamlit.
 
 ## Getting Started
-
 These instructions will help you set up and run the project on your local machine.
 
 ### Prerequisites
-
 * Python 3.10
 * Pandas 2.1.3
 * Streamlit 1.28.2
 * Pygwalker 0.3.16
 
 ### Installation
-
 1. Clone the repo
-
 ```sh
 git clone https://github.com/6abc/VisualizeCSV.git
 cd VisualizeCSV
-
 ```
-
 2.1 Create a virtual environment [Unix](optional but recommended):
-
 ```sh
 python -m venv venv
 source venv/bin/activate
-
 ```
-
 2.2 Create a virtual environment [Windows](optional but recommended):
-
 ```sh
 python -m venv venv
 .\venv\Scripts\activate
-
 ```
-
 3. Install project dependencies:
 ```sh
 pip install -r requirements.txt
 ```
 
 ## Usage
-
 1. 🔥Start the Application server:
 ```sh
 streamlit run main.py
 ```
 2. Open a web browser and navigate to http://127.0.0.1:8501/ to access the Web page.
-
 3. 💧Stop the Application server by Pressing Ctrl+C.
 ![Screen Shot](https://raw.githubusercontent.com/6abc/VisualizeCSV/main/img/stop.png)
 
 ### Docker
-
 1. Create folder name as data and add csv file named as source.csv and copy path of folder
-
 ```sh
 mkdir data
 ```
-
 2. Use data path here
 ```sh
 docker run -d -p 8501:8501 -v /path/to/your/data:/app/data paulisgood/visualizecsv:latest
 ```
-
 Example :
 ```sh
 docker run -d -p 8501:8501 -v /home/ash/data:/app/data paulisgood/visualizecsv:latest
@@ -120,11 +99,9 @@ https://github.com/6abc/VisualizeCSV/assets/97246854/5d2dbdb8-b199-4f7d-a49d-023
 * Simple UI, No code required.
 
 ## License
-
 Distributed under the MIT License. See [LICENSE](https://github.com/6abc/VisualizeCSV/blob/main/LICENSE) for more information.
 
 ## Authors
-
 * **Ashish Thakur** - *Senior Command Center Analyst* - [Ashish Thakur](https://github.com/6abc)
 
 ## Acknowledgements
