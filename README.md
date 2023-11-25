@@ -58,6 +58,7 @@ These instructions will help you set up and run the project on your local machin
 ```sh
 git clone https://github.com/6abc/VisualizeCSV.git
 cd VisualizeCSV
+
 ```
 
 2.1 Create a virtual environment [Unix](optional but recommended):
@@ -65,6 +66,7 @@ cd VisualizeCSV
 ```sh
 python -m venv venv
 source venv/bin/activate
+
 ```
 
 2.2 Create a virtual environment [Windows](optional but recommended):
@@ -72,6 +74,7 @@ source venv/bin/activate
 ```sh
 python -m venv venv
 .\venv\Scripts\activate
+
 ```
 
 3. Install project dependencies:
