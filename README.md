@@ -16,7 +16,6 @@
 ![Downloads](https://img.shields.io/github/downloads/6abc/VisualizeCSV/total) ![Contributors](https://img.shields.io/github/contributors/6abc/VisualizeCSV?color=dark-green) ![Issues](https://img.shields.io/github/issues/6abc/VisualizeCSV) ![License](https://img.shields.io/github/license/6abc/VisualizeCSV) 
 
 ## Table Of Contents
-
 * [About the Project](#about-the-project)
 * [Built With](#built-with)
 * [Getting Started](#getting-started)
