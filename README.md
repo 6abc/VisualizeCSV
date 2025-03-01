@@ -82,11 +82,11 @@ mkdir data
 ```
 2. Use data path here
 ```sh
-docker run -d -p 8501:8501 -v /path/to/your/data:/app/data paulisgood/visualizecsv:latest
+docker run -d -p 8501:8501 -v /path/to/your/data:/app/data paulisgood/visualizecsv:v1.0.0
 ```
 Example :
 ```sh
-docker run -d -p 8501:8501 -v /home/ash/data:/app/data paulisgood/visualizecsv:latest
+docker run -d -p 8501:8501 -v /home/ash/data:/app/data paulisgood/visualizecsv:v1.0.0
 ```
 
 ## DemoCSVChange
