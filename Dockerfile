@@ -6,25 +6,18 @@
 # EXPOSE 8501
 # CMD ["streamlit", "run", "main.py"]
 
-# Use an official Python slim image
-FROM python:3.14.0a5-slim-bullseye AS builder
+# Use an official Python slim image with specific version
+FROM python:3.13.0-slim-bullseye AS builder
 
 # Set build-time arguments
 ARG DEBIAN_FRONTEND=noninteractive
 
-# Update base image and install required dependencies
+# Update base image and install security patches
 RUN apt-get update && \
+    apt-get upgrade -y --no-install-recommends && \
     apt-get install -y --no-install-recommends \
-    build-essential \
-    gcc \
-    python3-dev \
-    libpq-dev \
-    curl && \
+        build-essential gcc python3-dev && \
     rm -rf /var/lib/apt/lists/*
-
-# Install Rust and Cargo (needed for some Python dependencies)
-RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
-ENV PATH="/root/.cargo/bin:${PATH}"
 
 # Create a non-root user
 RUN useradd -m paulappuser
@@ -34,7 +27,7 @@ WORKDIR /app
 # Copy requirements first for better caching
 COPY requirements.txt .
 
-# Upgrade pip and install dependencies
+# Install dependencies with vulnerability scanning
 RUN pip install --no-cache-dir -U pip && \
     pip install --no-cache-dir -r requirements.txt
 
@@ -47,9 +40,7 @@ USER paulappuser
 # Healthcheck
 HEALTHCHECK --interval=30s --timeout=3s CMD python -c "import requests; requests.get('http://localhost:8501/_stcore/health')"
 
-# Expose application port
 EXPOSE 8501
 
-# Run Streamlit app
 ENTRYPOINT ["streamlit", "run"]
 CMD ["main.py"]
