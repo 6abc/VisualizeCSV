@@ -18,8 +18,13 @@ RUN apt-get update && \
     build-essential \
     gcc \
     python3-dev \
-    libpq-dev && \
+    libpq-dev \
+    curl && \
     rm -rf /var/lib/apt/lists/*
+
+# Install Rust and Cargo (needed for some Python dependencies)
+RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
+ENV PATH="/root/.cargo/bin:${PATH}"
 
 # Create a non-root user
 RUN useradd -m paulappuser
